@@ -2,7 +2,7 @@
 
 package Tatsumaki::Template::Markapl;
 BEGIN {
-  $Tatsumaki::Template::Markapl::VERSION = '0.2';
+  $Tatsumaki::Template::Markapl::VERSION = '0.3';
 }
 use strict;
 use warnings;
@@ -13,7 +13,7 @@ Tatsumaki::Template::Markapl - Use Markapl as L<Tatsumaki>'s template system.
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 DESCRIPTION
 
@@ -94,7 +94,7 @@ sub rewrite {
     });
 }
 
-use namespace::clean;
+use namespace::autoclean;
 
 =head1 AUTHOR
 

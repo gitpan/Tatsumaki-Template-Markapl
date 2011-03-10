@@ -31,7 +31,7 @@
             "Plack::Util" : 0,
             "Sub::Install" : 0,
             "Tatsumaki::Template" : 0,
-            "namespace::clean" : 0
+            "namespace::autoclean" : 0
          }
       },
       "test" : {
@@ -49,6 +49,6 @@
          "web" : "https://github.com/gslin/tatsumaki-template-markapl-perl"
       }
    },
-   "version" : "0.2"
+   "version" : "0.3"
 }
 

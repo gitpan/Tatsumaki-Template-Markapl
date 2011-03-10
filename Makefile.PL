@@ -28,9 +28,9 @@ my %WriteMakefileArgs = (
     'Plack::Util' => '0',
     'Sub::Install' => '0',
     'Tatsumaki::Template' => '0',
-    'namespace::clean' => '0'
+    'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.2',
+  'VERSION' => '0.3',
   'test' => {
     'TESTS' => 't/*.t'
   }
