@@ -20,7 +20,8 @@ requires:
   Plack::Util: 0
   Sub::Install: 0
   Tatsumaki::Template: 0
+  namespace::clean: 0
 resources:
   homepage: https://github.com/gslin/tatsumaki-template-markapl-perl
   repository: https://github.com/gslin/tatsumaki-template-markapl-perl.git
-version: 0.1
+version: 0.2

@@ -27,9 +27,10 @@ my %WriteMakefileArgs = (
     'Any::Moose' => '0',
     'Plack::Util' => '0',
     'Sub::Install' => '0',
-    'Tatsumaki::Template' => '0'
+    'Tatsumaki::Template' => '0',
+    'namespace::clean' => '0'
   },
-  'VERSION' => '0.1',
+  'VERSION' => '0.2',
   'test' => {
     'TESTS' => 't/*.t'
   }

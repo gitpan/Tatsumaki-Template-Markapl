@@ -19,7 +19,7 @@ my %module_build_args = (
     'Gea-Suan Lin <gslin@gslin.org>'
   ],
   'dist_name' => 'Tatsumaki-Template-Markapl',
-  'dist_version' => '0.1',
+  'dist_version' => '0.2',
   'license' => 'bsd',
   'module_name' => 'Tatsumaki::Template::Markapl',
   'recommends' => {},
@@ -28,7 +28,8 @@ my %module_build_args = (
     'Any::Moose' => '0',
     'Plack::Util' => '0',
     'Sub::Install' => '0',
-    'Tatsumaki::Template' => '0'
+    'Tatsumaki::Template' => '0',
+    'namespace::clean' => '0'
   },
   'script_files' => []
 );
